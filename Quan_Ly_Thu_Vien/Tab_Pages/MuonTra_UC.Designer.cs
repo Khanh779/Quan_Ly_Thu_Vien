@@ -39,12 +39,12 @@
             this.CH_DiaChi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.CH_NgayMuon = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.CH_NgayTra = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btn_Close = new DinhKhanh_Controls_UI.Buttons.DKButton();
-            this.btn_Login = new DinhKhanh_Controls_UI.Buttons.DKButton();
-            this.LB_NumBook = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tripDetailView = new System.Windows.Forms.ToolStripMenuItem();
             this.chỉnhSửaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btn_Close = new DinhKhanh_Controls_UI.Buttons.DKButton();
+            this.btn_Login = new DinhKhanh_Controls_UI.Buttons.DKButton();
+            this.LB_NumBook = new System.Windows.Forms.Label();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +59,9 @@
             // 
             // listView1
             // 
+            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(236)))));
             this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -113,6 +116,32 @@
             // 
             this.CH_NgayTra.Text = "Ngày trả";
             this.CH_NgayTra.Width = 88;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tripDetailView,
+            this.chỉnhSửaToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(149, 52);
+            // 
+            // tripDetailView
+            // 
+            this.tripDetailView.BackColor = System.Drawing.Color.White;
+            this.tripDetailView.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.tripDetailView.Image = ((System.Drawing.Image)(resources.GetObject("tripDetailView.Image")));
+            this.tripDetailView.Name = "tripDetailView";
+            this.tripDetailView.Size = new System.Drawing.Size(148, 24);
+            this.tripDetailView.Text = "Xem chi tiết";
+            // 
+            // chỉnhSửaToolStripMenuItem
+            // 
+            this.chỉnhSửaToolStripMenuItem.BackColor = System.Drawing.Color.White;
+            this.chỉnhSửaToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.chỉnhSửaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("chỉnhSửaToolStripMenuItem.Image")));
+            this.chỉnhSửaToolStripMenuItem.Name = "chỉnhSửaToolStripMenuItem";
+            this.chỉnhSửaToolStripMenuItem.Size = new System.Drawing.Size(148, 24);
+            this.chỉnhSửaToolStripMenuItem.Text = "Chỉnh sửa";
             // 
             // btn_Close
             // 
@@ -200,32 +229,6 @@
             this.LB_NumBook.Size = new System.Drawing.Size(178, 19);
             this.LB_NumBook.TabIndex = 60;
             this.LB_NumBook.Text = "Tổng số sách: 50";
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tripDetailView,
-            this.chỉnhSửaToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 74);
-            // 
-            // tripDetailView
-            // 
-            this.tripDetailView.BackColor = System.Drawing.Color.White;
-            this.tripDetailView.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.tripDetailView.Image = ((System.Drawing.Image)(resources.GetObject("tripDetailView.Image")));
-            this.tripDetailView.Name = "tripDetailView";
-            this.tripDetailView.Size = new System.Drawing.Size(180, 24);
-            this.tripDetailView.Text = "Xem chi tiết";
-            // 
-            // chỉnhSửaToolStripMenuItem
-            // 
-            this.chỉnhSửaToolStripMenuItem.BackColor = System.Drawing.Color.White;
-            this.chỉnhSửaToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.chỉnhSửaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("chỉnhSửaToolStripMenuItem.Image")));
-            this.chỉnhSửaToolStripMenuItem.Name = "chỉnhSửaToolStripMenuItem";
-            this.chỉnhSửaToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
-            this.chỉnhSửaToolStripMenuItem.Text = "Chỉnh sửa";
             // 
             // MuonTra_UC
             // 
