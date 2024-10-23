@@ -33,6 +33,7 @@
             this.dkButton2 = new DinhKhanh_Controls_UI.Buttons.DKButton();
             this.dkButton1 = new DinhKhanh_Controls_UI.Buttons.DKButton();
             this.btn_Nav0 = new DinhKhanh_Controls_UI.Buttons.DKButton();
+            this.PN_Tabs = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,11 +46,13 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(1, 37);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(181, 544);
+            this.panel1.Size = new System.Drawing.Size(175, 544);
             this.panel1.TabIndex = 51;
             // 
             // dkButton2
             // 
+            this.dkButton2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dkButton2.AnimationMode = DinhKhanh_Controls_UI.Enums.AnimationMode.ColorTransition;
             this.dkButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(139)))), ((int)(((byte)(34)))));
             this.dkButton2.BorderThickness = 0;
@@ -75,7 +78,7 @@
             this.dkButton2.ShadowColor = System.Drawing.Color.Black;
             this.dkButton2.ShadowPadding = new System.Windows.Forms.Padding(0);
             this.dkButton2.ShapeType = DinhKhanh_Controls_UI.Enums.ShapeType.RoundedRectangle;
-            this.dkButton2.Size = new System.Drawing.Size(180, 48);
+            this.dkButton2.Size = new System.Drawing.Size(174, 48);
             this.dkButton2.StringTrimming = System.Drawing.StringTrimming.EllipsisCharacter;
             this.dkButton2.TabIndex = 51;
             this.dkButton2.Text = "Thống kê";
@@ -87,6 +90,8 @@
             // 
             // dkButton1
             // 
+            this.dkButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dkButton1.AnimationMode = DinhKhanh_Controls_UI.Enums.AnimationMode.ColorTransition;
             this.dkButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(139)))), ((int)(((byte)(34)))));
             this.dkButton1.BorderThickness = 0;
@@ -112,7 +117,7 @@
             this.dkButton1.ShadowColor = System.Drawing.Color.Black;
             this.dkButton1.ShadowPadding = new System.Windows.Forms.Padding(0);
             this.dkButton1.ShapeType = DinhKhanh_Controls_UI.Enums.ShapeType.RoundedRectangle;
-            this.dkButton1.Size = new System.Drawing.Size(180, 48);
+            this.dkButton1.Size = new System.Drawing.Size(174, 48);
             this.dkButton1.StringTrimming = System.Drawing.StringTrimming.EllipsisCharacter;
             this.dkButton1.TabIndex = 50;
             this.dkButton1.Text = "Quản lý mượn/ trả";
@@ -124,6 +129,8 @@
             // 
             // btn_Nav0
             // 
+            this.btn_Nav0.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Nav0.AnimationMode = DinhKhanh_Controls_UI.Enums.AnimationMode.ColorTransition;
             this.btn_Nav0.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(139)))), ((int)(((byte)(34)))));
             this.btn_Nav0.BorderThickness = 0;
@@ -149,7 +156,7 @@
             this.btn_Nav0.ShadowColor = System.Drawing.Color.Black;
             this.btn_Nav0.ShadowPadding = new System.Windows.Forms.Padding(0);
             this.btn_Nav0.ShapeType = DinhKhanh_Controls_UI.Enums.ShapeType.RoundedRectangle;
-            this.btn_Nav0.Size = new System.Drawing.Size(180, 48);
+            this.btn_Nav0.Size = new System.Drawing.Size(174, 48);
             this.btn_Nav0.StringTrimming = System.Drawing.StringTrimming.EllipsisCharacter;
             this.btn_Nav0.TabIndex = 49;
             this.btn_Nav0.Text = "Quản lý sách";
@@ -159,6 +166,15 @@
             this.btn_Nav0.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
             this.btn_Nav0.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
             // 
+            // PN_Tabs
+            // 
+            this.PN_Tabs.BackColor = System.Drawing.Color.Transparent;
+            this.PN_Tabs.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PN_Tabs.Location = new System.Drawing.Point(176, 37);
+            this.PN_Tabs.Name = "PN_Tabs";
+            this.PN_Tabs.Size = new System.Drawing.Size(752, 544);
+            this.PN_Tabs.TabIndex = 52;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -166,6 +182,7 @@
             this.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
             this.BorderSize = 1;
             this.ClientSize = new System.Drawing.Size(929, 582);
+            this.Controls.Add(this.PN_Tabs);
             this.Controls.Add(this.panel1);
             this.IconControlBoxHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(188)))), ((int)(((byte)(138)))));
             this.IconControlBoxNormalColor = System.Drawing.Color.WhiteSmoke;
@@ -176,6 +193,7 @@
             this.TitleForeColor = System.Drawing.Color.White;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Controls.SetChildIndex(this.panel1, 0);
+            this.Controls.SetChildIndex(this.PN_Tabs, 0);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -186,6 +204,7 @@
         private DinhKhanh_Controls_UI.Buttons.DKButton btn_Nav0;
         private DinhKhanh_Controls_UI.Buttons.DKButton dkButton1;
         private DinhKhanh_Controls_UI.Buttons.DKButton dkButton2;
+        public System.Windows.Forms.Panel PN_Tabs;
     }
 }
 
