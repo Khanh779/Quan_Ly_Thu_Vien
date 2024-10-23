@@ -1,4 +1,5 @@
 ﻿using DinhKhanh_Controls_UI.Forms;
+using Quan_Ly_Thu_Vien.Tab_Pages;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -59,6 +60,8 @@ namespace Quan_Ly_Thu_Vien
         private void Form1_Load(object sender, EventArgs e)
         {
             timerShowAnimation.Start();
+
+            PN_Tabs.Controls.Add(BookManager_UC.Instance);
         }
     }
 }

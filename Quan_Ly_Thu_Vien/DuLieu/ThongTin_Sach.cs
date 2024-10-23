@@ -15,7 +15,6 @@ namespace Quan_Ly_Thu_Vien.DuLieu
         public ThongTin_LoaiSach LoaiSach { get; set; }
         public ThongTin_NhaXuatBan NhaXuatBan { get; set; }
         public int NamXuatBan { get; set; }
-        public int SoLuong { get; set; }
     }
 
 

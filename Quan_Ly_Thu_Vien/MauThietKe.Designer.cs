@@ -66,7 +66,7 @@
             this.dkButton7.ShadowColor = System.Drawing.Color.Black;
             this.dkButton7.ShadowPadding = new System.Windows.Forms.Padding(5);
             this.dkButton7.ShapeType = DinhKhanh_Controls_UI.Enums.ShapeType.RoundedRectangle;
-            this.dkButton7.Size = new System.Drawing.Size(184, 219);
+            this.dkButton7.Size = new System.Drawing.Size(206, 218);
             this.dkButton7.StringTrimming = System.Drawing.StringTrimming.EllipsisCharacter;
             this.dkButton7.TabIndex = 53;
             this.dkButton7.Text = "Color Transition\r\n(Chuyển màu)";

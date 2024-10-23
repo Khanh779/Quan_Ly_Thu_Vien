@@ -121,7 +121,7 @@
   <data name="dkButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAAA7VJREFUeF7tnD9oFFEQhw8R/zVioSIKmrD7LggRREEL0UZFwUIsRMFCRESQ5HYv
+        DQAACw0B7QfALAAAA7VJREFUeF7tnD9oFFEQhw8R/zVioSIKmrD7LggRREEL0UZFwUIsRMFCRESQ5HYv
         RdKdhSConZWVIFYBhXh7KxI0jYWFhY22FopYiGAhBgt1XpzI7b1Zcgl769y73wc/CLczt7f75e1mwyQV
         AAAAAAAAAAAAAAAGmdnJ4Y1JbCaXk1ZcHeV2L7HHJx53FFzlkt7xtFbd1YrN7+UkqYcXud1L7PGJxx2H
         77mkd0CIC4QoA0KUASHKgBBlQIgyIEQZEKIMCFEGhCgDQpSxIiF2o9SUm8jc59YMKxEyqIEQZYEQZYEQ
@@ -143,7 +143,7 @@
   <data name="dkButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAABFZJREFUeF7tnc+LFEcUx0eJ4kUIBEQ9uOB29eyu5KCCyW3PJiYaohBz8+JFcLpn
+        DQAACw0B7QfALAAABFZJREFUeF7tnc+LFEcUx0eJ4kUIBEQ9uOB29eyu5KCCyW3PJiYaohBz8+JFcLpn
         lVyE8eYtRPAQc00I4kFld7o3IQf/AUGNP9hLLiL4g2zITV0XzXvjG6jpre7p6p4xT/x+4LHQ9boW3mde
         VU0PzDQAAAAAAICDq62JD7stMz1/cueO652JTXIZvE2unW5u7sbmTDcO7yZx+Lof3Sh8lkRmMWkHByQV
         jJs0Dmap+I9tEa4gYSl3j9wGxkEaNQ9ToVdcAlzRjcyf3E1yOxgF6Vwwk8TBMSrucYqXrsIXBd1zSaYC
@@ -168,7 +168,7 @@
   <data name="btn_Nav0.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAABqZJREFUeF7tXUuMFEUYHt+v+DgYDYoiMNWzkIhR9ISJimhQ4k0OBk304BJFdrpn
+        DQAACw0B7QfALAAABqZJREFUeF7tXUuMFEUYHt+v+DgYDYoiMNWzkIhR9ISJimhQ4k0OBk304BJFdrpn
         WAnxsUQ8ECEkGHyskZD4CLgahN2ewQ0mHIx7UBeDHsSEqCG6B40a31GI+P01tabsqZ3u2e2ZnsXvS77s
         7EzVX///fdXdNXOoyhEEQRAEQRAEQRAEQRAEQbQEFd9bDG6t+GpAGPre65XA67e4CZ9vCANvLf6uCkvq
         /tBXy6o93g3vlOZecaBv1tkm1LSH1CI1SW1So9Sqa67V/jS02Wxro7UyuomGYVC4xYSaHDDoGgz2N4Kf

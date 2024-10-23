@@ -80,6 +80,7 @@
     <Compile Include="Tab_Pages\BookManager_UC.Designer.cs">
       <DependentUpon>BookManager_UC.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThucHien_XuLy.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

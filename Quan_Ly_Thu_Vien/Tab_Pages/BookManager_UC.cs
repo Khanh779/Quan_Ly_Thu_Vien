@@ -12,9 +12,24 @@ namespace Quan_Ly_Thu_Vien.Tab_Pages
 {
     public partial class BookManager_UC : UserControl
     {
+        static BookManager_UC _obj;
+        public static BookManager_UC Instance
+        {
+            get
+            {
+                if (_obj == null || _obj.IsDisposed)
+                {
+                    _obj = new BookManager_UC();
+                }
+                return _obj;
+            }
+        }
+
+
         public BookManager_UC()
         {
             InitializeComponent();
+            _obj = this;
         }
     }
 }

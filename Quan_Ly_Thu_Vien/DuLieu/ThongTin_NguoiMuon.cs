@@ -16,5 +16,7 @@ namespace Quan_Ly_Thu_Vien.DuLieu
         public string Email { get; set; }
         public DateTime NgayMuon { get; set; }
         public DateTime NgayTra { get; set; }
+
+        public ThongTin_Muon ThongTin_Muon { get; set; }
     }
 }

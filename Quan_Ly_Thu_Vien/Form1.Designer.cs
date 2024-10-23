@@ -46,7 +46,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(1, 37);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(175, 544);
+            this.panel1.Size = new System.Drawing.Size(186, 557);
             this.panel1.TabIndex = 51;
             // 
             // dkButton2
@@ -58,7 +58,7 @@
             this.dkButton2.BorderThickness = 0;
             this.dkButton2.ContentAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.dkButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dkButton2.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.dkButton2.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.dkButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.dkButton2.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
             this.dkButton2.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
@@ -78,7 +78,7 @@
             this.dkButton2.ShadowColor = System.Drawing.Color.Black;
             this.dkButton2.ShadowPadding = new System.Windows.Forms.Padding(0);
             this.dkButton2.ShapeType = DinhKhanh_Controls_UI.Enums.ShapeType.RoundedRectangle;
-            this.dkButton2.Size = new System.Drawing.Size(174, 48);
+            this.dkButton2.Size = new System.Drawing.Size(185, 48);
             this.dkButton2.StringTrimming = System.Drawing.StringTrimming.EllipsisCharacter;
             this.dkButton2.TabIndex = 51;
             this.dkButton2.Text = "Thống kê";
@@ -97,7 +97,7 @@
             this.dkButton1.BorderThickness = 0;
             this.dkButton1.ContentAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.dkButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dkButton1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.dkButton1.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.dkButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.dkButton1.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
             this.dkButton1.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
@@ -117,7 +117,7 @@
             this.dkButton1.ShadowColor = System.Drawing.Color.Black;
             this.dkButton1.ShadowPadding = new System.Windows.Forms.Padding(0);
             this.dkButton1.ShapeType = DinhKhanh_Controls_UI.Enums.ShapeType.RoundedRectangle;
-            this.dkButton1.Size = new System.Drawing.Size(174, 48);
+            this.dkButton1.Size = new System.Drawing.Size(185, 48);
             this.dkButton1.StringTrimming = System.Drawing.StringTrimming.EllipsisCharacter;
             this.dkButton1.TabIndex = 50;
             this.dkButton1.Text = "Quản lý mượn/ trả";
@@ -136,7 +136,7 @@
             this.btn_Nav0.BorderThickness = 0;
             this.btn_Nav0.ContentAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Nav0.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Nav0.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btn_Nav0.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.btn_Nav0.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.btn_Nav0.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
             this.btn_Nav0.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
@@ -156,7 +156,7 @@
             this.btn_Nav0.ShadowColor = System.Drawing.Color.Black;
             this.btn_Nav0.ShadowPadding = new System.Windows.Forms.Padding(0);
             this.btn_Nav0.ShapeType = DinhKhanh_Controls_UI.Enums.ShapeType.RoundedRectangle;
-            this.btn_Nav0.Size = new System.Drawing.Size(174, 48);
+            this.btn_Nav0.Size = new System.Drawing.Size(185, 48);
             this.btn_Nav0.StringTrimming = System.Drawing.StringTrimming.EllipsisCharacter;
             this.btn_Nav0.TabIndex = 49;
             this.btn_Nav0.Text = "Quản lý sách";
@@ -170,9 +170,9 @@
             // 
             this.PN_Tabs.BackColor = System.Drawing.Color.Transparent;
             this.PN_Tabs.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PN_Tabs.Location = new System.Drawing.Point(176, 37);
+            this.PN_Tabs.Location = new System.Drawing.Point(187, 37);
             this.PN_Tabs.Name = "PN_Tabs";
-            this.PN_Tabs.Size = new System.Drawing.Size(752, 544);
+            this.PN_Tabs.Size = new System.Drawing.Size(766, 557);
             this.PN_Tabs.TabIndex = 52;
             // 
             // Form1
@@ -181,7 +181,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(237)))));
             this.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
             this.BorderSize = 1;
-            this.ClientSize = new System.Drawing.Size(929, 582);
+            this.ClientSize = new System.Drawing.Size(954, 595);
             this.Controls.Add(this.PN_Tabs);
             this.Controls.Add(this.panel1);
             this.IconControlBoxHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(188)))), ((int)(((byte)(138)))));
