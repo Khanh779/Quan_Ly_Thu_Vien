@@ -105,6 +105,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Tab_Pages\BookManager_UC.resx">
       <DependentUpon>BookManager_UC.cs</DependentUpon>
@@ -128,6 +129,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="icons8-library-100.ico" />
+    <None Include="Resources\icons8-book-100 %282%29.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Do_An\DinhKhanh_Controls_UI\DinhKhanh_Controls_UI.csproj">

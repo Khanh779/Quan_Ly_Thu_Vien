@@ -39,6 +39,7 @@ namespace Quan_Ly_Thu_Vien.Tab_Pages
             foreach (var item in ThucHien_XuLy.TongHopDuLieu.DanhSach_Sach)
             {
                 var a = ThucHien_XuLy.ButtonGradient();
+                a.Image = item.HinhAnh == null ? Properties.Resources.icons8_book_100__2_ : item.HinhAnh;
                 a.Font = new Font("Segoe UI", 12);
                 a.Text = item.TenSach + "\n(" + item.MaSach + ")";
                 a.Tag = item;

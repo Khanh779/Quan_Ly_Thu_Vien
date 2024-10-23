@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
@@ -126,8 +127,6 @@ namespace Quan_Ly_Thu_Vien
         public static DKButton ButtonGradient()
         {
             DKButton button = new DKButton();
-            button.Text = "Button";
-            button.Size = new System.Drawing.Size(178, 198);
 
             button.NormalColor1 = System.Drawing.Color.FromArgb(255, 255, 236);
             button.NormalColor2 = System.Drawing.Color.White;
@@ -150,12 +149,14 @@ namespace Quan_Ly_Thu_Vien
             button.BorderColor = System.Drawing.Color.Silver;
             button.BorderThickness = 1;
 
-            button.ImageOffsetY = 6;
+            button.ImageOffsetY = 10;
             button.TextPadding=new System.Windows.Forms.Padding(0,8,0,0);
             button.ImageSize= new System.Drawing.Size(70, 90);
             button.ImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            button.Size = new Size(178, 198);
 
             button.Cursor = System.Windows.Forms.Cursors.Hand;
+            button.ContentAlignment = System.Drawing.ContentAlignment.TopCenter;
 
             return button;
         }
