@@ -142,6 +142,7 @@ namespace Quan_Ly_Thu_Vien
 
             button.TextNormalColor = System.Drawing.Color.FromArgb(64, 64, 64);
             button.TextHoverColor = System.Drawing.Color.FromArgb(74, 74, 74);
+            button.TextPressColor = System.Drawing.Color.FromArgb(54, 54, 54);
 
             button.Radius = 5;
             button.ShadowPadding = new System.Windows.Forms.Padding(5);
@@ -153,6 +154,8 @@ namespace Quan_Ly_Thu_Vien
             button.TextPadding=new System.Windows.Forms.Padding(0,8,0,0);
             button.ImageSize= new System.Drawing.Size(70, 90);
             button.ImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+
+            button.Cursor = System.Windows.Forms.Cursors.Hand;
 
             return button;
         }
