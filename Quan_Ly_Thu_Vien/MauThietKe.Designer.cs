@@ -35,8 +35,8 @@
             this.dkButton4 = new DinhKhanh_Controls_UI.Buttons.DKButton();
             this.btn_Nav0 = new DinhKhanh_Controls_UI.Buttons.DKButton();
             this.dkButton2 = new DinhKhanh_Controls_UI.Buttons.DKButton();
-            this.btn_Add_Product = new DinhKhanh_Controls_UI.Buttons.DKButton();
             this.btn_Close = new DinhKhanh_Controls_UI.Buttons.DKButton();
+            this.btn_Login = new DinhKhanh_Controls_UI.Buttons.DKButton();
             this.SuspendLayout();
             // 
             // dkButton7
@@ -258,43 +258,6 @@
             this.dkButton2.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.dkButton2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
             // 
-            // btn_Add_Product
-            // 
-            this.btn_Add_Product.AnimationMode = DinhKhanh_Controls_UI.Enums.AnimationMode.ColorTransition;
-            this.btn_Add_Product.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(139)))), ((int)(((byte)(34)))));
-            this.btn_Add_Product.BorderThickness = 0;
-            this.btn_Add_Product.ContentAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_Add_Product.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Add_Product.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.btn_Add_Product.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.btn_Add_Product.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
-            this.btn_Add_Product.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
-            this.btn_Add_Product.Image = null;
-            this.btn_Add_Product.ImageOffsetX = 0;
-            this.btn_Add_Product.ImageOffsetY = 0;
-            this.btn_Add_Product.ImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_Add_Product.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_Add_Product.Location = new System.Drawing.Point(295, 137);
-            this.btn_Add_Product.Name = "btn_Add_Product";
-            this.btn_Add_Product.NormalColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
-            this.btn_Add_Product.NormalColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
-            this.btn_Add_Product.PressColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(63)))), ((int)(((byte)(48)))));
-            this.btn_Add_Product.PressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(73)))), ((int)(((byte)(78)))));
-            this.btn_Add_Product.Radius = 5;
-            this.btn_Add_Product.ShadowAlpha = 120;
-            this.btn_Add_Product.ShadowColor = System.Drawing.Color.Black;
-            this.btn_Add_Product.ShadowPadding = new System.Windows.Forms.Padding(0);
-            this.btn_Add_Product.ShapeType = DinhKhanh_Controls_UI.Enums.ShapeType.RoundedRectangle;
-            this.btn_Add_Product.Size = new System.Drawing.Size(100, 32);
-            this.btn_Add_Product.StringTrimming = System.Drawing.StringTrimming.EllipsisCharacter;
-            this.btn_Add_Product.TabIndex = 54;
-            this.btn_Add_Product.Text = "Thêm";
-            this.btn_Add_Product.TextHoverColor = System.Drawing.Color.White;
-            this.btn_Add_Product.TextNormalColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_Add_Product.TextPadding = new System.Windows.Forms.Padding(0);
-            this.btn_Add_Product.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.btn_Add_Product.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            // 
             // btn_Close
             // 
             this.btn_Close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -333,14 +296,52 @@
             this.btn_Close.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.btn_Close.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             // 
+            // btn_Login
+            // 
+            this.btn_Login.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Login.AnimationMode = DinhKhanh_Controls_UI.Enums.AnimationMode.ColorTransition;
+            this.btn_Login.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(139)))), ((int)(((byte)(34)))));
+            this.btn_Login.BorderThickness = 0;
+            this.btn_Login.ContentAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_Login.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Login.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btn_Login.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.btn_Login.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
+            this.btn_Login.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
+            this.btn_Login.Image = null;
+            this.btn_Login.ImageOffsetX = 0;
+            this.btn_Login.ImageOffsetY = 0;
+            this.btn_Login.ImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_Login.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_Login.Location = new System.Drawing.Point(295, 137);
+            this.btn_Login.Name = "btn_Login";
+            this.btn_Login.NormalColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
+            this.btn_Login.NormalColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
+            this.btn_Login.PressColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(63)))), ((int)(((byte)(48)))));
+            this.btn_Login.PressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(73)))), ((int)(((byte)(78)))));
+            this.btn_Login.Radius = 5;
+            this.btn_Login.ShadowAlpha = 120;
+            this.btn_Login.ShadowColor = System.Drawing.Color.Black;
+            this.btn_Login.ShadowPadding = new System.Windows.Forms.Padding(0);
+            this.btn_Login.ShapeType = DinhKhanh_Controls_UI.Enums.ShapeType.RoundedRectangle;
+            this.btn_Login.Size = new System.Drawing.Size(91, 32);
+            this.btn_Login.StringTrimming = System.Drawing.StringTrimming.EllipsisCharacter;
+            this.btn_Login.TabIndex = 56;
+            this.btn_Login.Text = "Đăng nhập";
+            this.btn_Login.TextHoverColor = System.Drawing.Color.White;
+            this.btn_Login.TextNormalColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_Login.TextPadding = new System.Windows.Forms.Padding(0);
+            this.btn_Login.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.btn_Login.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            // 
             // MauThietKe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(237)))));
             this.ClientSize = new System.Drawing.Size(1221, 625);
+            this.Controls.Add(this.btn_Login);
             this.Controls.Add(this.btn_Close);
-            this.Controls.Add(this.btn_Add_Product);
             this.Controls.Add(this.dkButton7);
             this.Controls.Add(this.dkButton8);
             this.Controls.Add(this.btn_Del_Product);
@@ -360,7 +361,7 @@
         private DinhKhanh_Controls_UI.Buttons.DKButton btn_Nav0;
         private DinhKhanh_Controls_UI.Buttons.DKButton dkButton2;
         private DinhKhanh_Controls_UI.Buttons.DKButton dkButton7;
-        private DinhKhanh_Controls_UI.Buttons.DKButton btn_Add_Product;
         private DinhKhanh_Controls_UI.Buttons.DKButton btn_Close;
+        private DinhKhanh_Controls_UI.Buttons.DKButton btn_Login;
     }
 }

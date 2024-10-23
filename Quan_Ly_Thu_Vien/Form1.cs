@@ -61,7 +61,44 @@ namespace Quan_Ly_Thu_Vien
         {
             timerShowAnimation.Start();
 
+            ThucHien_XuLy.ReadBinaryFile();
+
             PN_Tabs.Controls.Add(BookManager_UC.Instance);
+            BookManager_UC.Instance.Dock = DockStyle.Fill;
+        }
+
+        private void btn_Nav0_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                if (!PN_Tabs.Controls.Contains(BookManager_UC.Instance))
+                {
+                    PN_Tabs.Controls.Clear();
+                    PN_Tabs.Controls.Add(BookManager_UC.Instance);
+                    BookManager_UC.Instance.Dock = DockStyle.Fill;
+                    BookManager_UC.Instance.BringToFront();
+                }
+            }
+
+        }
+
+        private void dkButton1_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                if (!PN_Tabs.Controls.Contains(MuonTra_UC.Instance))
+                {
+                    PN_Tabs.Controls.Clear();
+                    PN_Tabs.Controls.Add(MuonTra_UC.Instance);
+                    MuonTra_UC.Instance.Dock = DockStyle.Fill;
+                    MuonTra_UC.Instance.BringToFront();
+                }
+            }
+        }
+
+        private void dkButton2_MouseClick(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }

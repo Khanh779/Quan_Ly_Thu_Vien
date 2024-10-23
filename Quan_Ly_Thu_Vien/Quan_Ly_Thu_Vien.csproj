@@ -80,7 +80,14 @@
     <Compile Include="Tab_Pages\BookManager_UC.Designer.cs">
       <DependentUpon>BookManager_UC.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tab_Pages\MuonTra_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Pages\MuonTra_UC.Designer.cs">
+      <DependentUpon>MuonTra_UC.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThucHien_XuLy.cs" />
+    <Compile Include="TongHop_DuLieu.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +108,9 @@
     </Compile>
     <EmbeddedResource Include="Tab_Pages\BookManager_UC.resx">
       <DependentUpon>BookManager_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Pages\MuonTra_UC.resx">
+      <DependentUpon>MuonTra_UC.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

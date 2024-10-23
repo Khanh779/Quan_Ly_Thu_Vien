@@ -247,7 +247,7 @@
             this.AllowResize = false;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(237)))));
-            this.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
+            this.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
             this.BorderSize = 1;
             this.ClientSize = new System.Drawing.Size(357, 279);
             this.Controls.Add(this.dkCheckBox1);
@@ -268,7 +268,7 @@
             this.Opacity = 0.9D;
             this.Padding = new System.Windows.Forms.Padding(1);
             this.Text = "Quản lý thư viện";
-            this.TitleBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
+            this.TitleBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
             this.TitleForeColor = System.Drawing.Color.White;
             this.Controls.SetChildIndex(this.pictureBox1, 0);
             this.Controls.SetChildIndex(this.txt_UserName, 0);

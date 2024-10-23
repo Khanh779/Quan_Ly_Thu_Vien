@@ -39,7 +39,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(190)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(237)))), ((int)(((byte)(225)))));
             this.panel1.Controls.Add(this.dkButton2);
             this.panel1.Controls.Add(this.dkButton1);
             this.panel1.Controls.Add(this.btn_Nav0);
@@ -60,8 +60,8 @@
             this.dkButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dkButton2.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.dkButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.dkButton2.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
-            this.dkButton2.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
+            this.dkButton2.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(235)))));
+            this.dkButton2.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(235)))));
             this.dkButton2.Image = ((System.Drawing.Image)(resources.GetObject("dkButton2.Image")));
             this.dkButton2.ImageOffsetX = 3;
             this.dkButton2.ImageOffsetY = 0;
@@ -69,10 +69,10 @@
             this.dkButton2.ImageSize = new System.Drawing.Size(22, 22);
             this.dkButton2.Location = new System.Drawing.Point(0, 261);
             this.dkButton2.Name = "dkButton2";
-            this.dkButton2.NormalColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(190)))));
-            this.dkButton2.NormalColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(190)))));
-            this.dkButton2.PressColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(219)))), ((int)(((byte)(180)))));
-            this.dkButton2.PressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(219)))), ((int)(((byte)(180)))));
+            this.dkButton2.NormalColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(237)))), ((int)(((byte)(225)))));
+            this.dkButton2.NormalColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(237)))), ((int)(((byte)(225)))));
+            this.dkButton2.PressColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(227)))), ((int)(((byte)(215)))));
+            this.dkButton2.PressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(227)))), ((int)(((byte)(215)))));
             this.dkButton2.Radius = 0;
             this.dkButton2.ShadowAlpha = 120;
             this.dkButton2.ShadowColor = System.Drawing.Color.Black;
@@ -87,6 +87,7 @@
             this.dkButton2.TextPadding = new System.Windows.Forms.Padding(2, 0, 0, 0);
             this.dkButton2.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
             this.dkButton2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
+            this.dkButton2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dkButton2_MouseClick);
             // 
             // dkButton1
             // 
@@ -99,8 +100,8 @@
             this.dkButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dkButton1.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.dkButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.dkButton1.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
-            this.dkButton1.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
+            this.dkButton1.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(235)))));
+            this.dkButton1.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(235)))));
             this.dkButton1.Image = ((System.Drawing.Image)(resources.GetObject("dkButton1.Image")));
             this.dkButton1.ImageOffsetX = 3;
             this.dkButton1.ImageOffsetY = 0;
@@ -108,10 +109,10 @@
             this.dkButton1.ImageSize = new System.Drawing.Size(22, 22);
             this.dkButton1.Location = new System.Drawing.Point(0, 207);
             this.dkButton1.Name = "dkButton1";
-            this.dkButton1.NormalColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(190)))));
-            this.dkButton1.NormalColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(190)))));
-            this.dkButton1.PressColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(219)))), ((int)(((byte)(180)))));
-            this.dkButton1.PressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(219)))), ((int)(((byte)(180)))));
+            this.dkButton1.NormalColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(237)))), ((int)(((byte)(225)))));
+            this.dkButton1.NormalColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(237)))), ((int)(((byte)(225)))));
+            this.dkButton1.PressColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(227)))), ((int)(((byte)(215)))));
+            this.dkButton1.PressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(227)))), ((int)(((byte)(215)))));
             this.dkButton1.Radius = 0;
             this.dkButton1.ShadowAlpha = 120;
             this.dkButton1.ShadowColor = System.Drawing.Color.Black;
@@ -126,6 +127,7 @@
             this.dkButton1.TextPadding = new System.Windows.Forms.Padding(2, 0, 0, 0);
             this.dkButton1.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
             this.dkButton1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
+            this.dkButton1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dkButton1_MouseClick);
             // 
             // btn_Nav0
             // 
@@ -138,8 +140,8 @@
             this.btn_Nav0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Nav0.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.btn_Nav0.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.btn_Nav0.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
-            this.btn_Nav0.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(239)))), ((int)(((byte)(200)))));
+            this.btn_Nav0.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(235)))));
+            this.btn_Nav0.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(235)))));
             this.btn_Nav0.Image = ((System.Drawing.Image)(resources.GetObject("btn_Nav0.Image")));
             this.btn_Nav0.ImageOffsetX = 3;
             this.btn_Nav0.ImageOffsetY = 0;
@@ -147,10 +149,10 @@
             this.btn_Nav0.ImageSize = new System.Drawing.Size(22, 22);
             this.btn_Nav0.Location = new System.Drawing.Point(0, 153);
             this.btn_Nav0.Name = "btn_Nav0";
-            this.btn_Nav0.NormalColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(190)))));
-            this.btn_Nav0.NormalColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(190)))));
-            this.btn_Nav0.PressColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(219)))), ((int)(((byte)(180)))));
-            this.btn_Nav0.PressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(219)))), ((int)(((byte)(180)))));
+            this.btn_Nav0.NormalColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(237)))), ((int)(((byte)(225)))));
+            this.btn_Nav0.NormalColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(237)))), ((int)(((byte)(225)))));
+            this.btn_Nav0.PressColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(227)))), ((int)(((byte)(215)))));
+            this.btn_Nav0.PressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(227)))), ((int)(((byte)(215)))));
             this.btn_Nav0.Radius = 0;
             this.btn_Nav0.ShadowAlpha = 120;
             this.btn_Nav0.ShadowColor = System.Drawing.Color.Black;
@@ -165,6 +167,7 @@
             this.btn_Nav0.TextPadding = new System.Windows.Forms.Padding(2, 0, 0, 0);
             this.btn_Nav0.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
             this.btn_Nav0.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
+            this.btn_Nav0.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btn_Nav0_MouseClick);
             // 
             // PN_Tabs
             // 
@@ -179,7 +182,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(237)))));
-            this.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
+            this.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
             this.BorderSize = 1;
             this.ClientSize = new System.Drawing.Size(954, 595);
             this.Controls.Add(this.PN_Tabs);
@@ -189,7 +192,7 @@
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(1);
             this.Text = "Quản lý thư viện";
-            this.TitleBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
+            this.TitleBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
             this.TitleForeColor = System.Drawing.Color.White;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Controls.SetChildIndex(this.panel1, 0);

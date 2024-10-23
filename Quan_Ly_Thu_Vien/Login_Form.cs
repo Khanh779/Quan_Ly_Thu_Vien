@@ -67,6 +67,12 @@ namespace Quan_Ly_Thu_Vien
                 }
             }
         }
+
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            base.OnFormClosed(e);
+            ThucHien_XuLy.WriteBinaryFile();
+        }
     }
 
 

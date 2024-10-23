@@ -9,7 +9,10 @@ namespace Quan_Ly_Thu_Vien.DuLieu
     [Serializable]
     public class ThongTin_LoaiSach
     {
-        public int MaLoai => (int)TenLoai;
+        public int MaLoai
+        {
+            get { return (int)TenLoai; }
+        }
         public Loai_Sach TenLoai { get; set; }
 
     }

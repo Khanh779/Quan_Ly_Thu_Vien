@@ -31,5 +31,18 @@ namespace Quan_Ly_Thu_Vien.Tab_Pages
             InitializeComponent();
             _obj = this;
         }
+
+        private void BookManager_UC_Load(object sender, EventArgs e)
+        {
+            FLP_BookList.Controls.Clear();
+
+            foreach (var item in ThucHien_XuLy.TongHopDuLieu.DanhSach_Sach)
+            {
+                var a = ThucHien_XuLy.ButtonGradient();
+                a.Text = item.TenSach + "\n(" + item.MaSach + ")";
+                a.Tag = item;
+                FLP_BookList.Controls.Add(a);
+            }
+        }
     }
 }

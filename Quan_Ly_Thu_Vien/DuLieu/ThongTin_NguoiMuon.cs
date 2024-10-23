@@ -10,12 +10,10 @@ namespace Quan_Ly_Thu_Vien.DuLieu
     public class ThongTin_NguoiMuon
     {
         public string MaNguoiMuon { get; set; }
-        public string TenNguoiMuon { get; set; }
+        public string HoTen { get; set; }
         public string DiaChi { get; set; }
         public string SoDienThoai { get; set; }
         public string Email { get; set; }
-        public DateTime NgayMuon { get; set; }
-        public DateTime NgayTra { get; set; }
 
         public ThongTin_Muon ThongTin_Muon { get; set; }
     }

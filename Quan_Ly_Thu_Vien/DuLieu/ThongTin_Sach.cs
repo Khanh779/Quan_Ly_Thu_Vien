@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,8 @@ namespace Quan_Ly_Thu_Vien.DuLieu
         public ThongTin_LoaiSach LoaiSach { get; set; }
         public ThongTin_NhaXuatBan NhaXuatBan { get; set; }
         public int NamXuatBan { get; set; }
+
+        public Bitmap HinhAnh { get; set; }
     }
 
 

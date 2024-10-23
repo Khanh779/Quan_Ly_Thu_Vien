@@ -9,8 +9,7 @@ namespace Quan_Ly_Thu_Vien.DuLieu
     [Serializable]
     public class ThongTin_Muon
     {
-        public ThongTin_Sach ThongTin_Sach { get; set; }
-        public ThongTin_Sach SachMuon { get; set; }
+        public List<ThongTin_Sach> DanhSach_SachMuon { get; set; }
         public DateTime NgayMuon { get; set; }
         public DateTime NgayTra { get; set; }
     }
