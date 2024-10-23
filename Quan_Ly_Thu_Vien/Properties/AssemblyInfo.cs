@@ -9,8 +9,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Quan_Ly_Thu_Vien")]
-[assembly: AssemblyCopyright("Copyright ©  2024")]
+[assembly: AssemblyProduct("Quản Lý Thư Viện")]
+[assembly: AssemblyCopyright("Copyright ©  2024 - Nhóm 5 - Đỉnh & Khánh")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

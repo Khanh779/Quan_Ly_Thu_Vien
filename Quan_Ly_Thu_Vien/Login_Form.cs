@@ -46,6 +46,7 @@ namespace Quan_Ly_Thu_Vien
             {
                 if (txt_UserName.Text == "admin" && txt_Password.Text == "admin")
                 {
+                    MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Hide();
                     Form1.Instance.Show();
                 }
