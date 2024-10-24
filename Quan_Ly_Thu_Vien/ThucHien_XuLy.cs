@@ -56,7 +56,7 @@ namespace Quan_Ly_Thu_Vien
         static void TaoViDu()
         {
            
-            for (int i = 0; i < 30; i++)
+            for (int i = 0; i < 50; i++)
             {
                 var b = new ThongTin_LoaiSach();
                 b.TenLoai = Loai_Sach.Ton_Giao;
@@ -65,7 +65,7 @@ namespace Quan_Ly_Thu_Vien
                 TongHopDuLieu.DanhSach_Sach.Add(a.MaSach, a);
             }
 
-            for (int i = 0; i < 30; i++)
+            for (int i = 0; i < 50; i++)
             {
                 var c = NhapThongTin_NguoiMuon("NM" + i, "Người mượn " + i, "Địa chỉ " + i, "Số điện thoại " + i, "Email " + i, new ThongTin_Muon()
                 {

@@ -702,6 +702,7 @@
             this.Text = "Thêm sách";
             this.TitleBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
             this.TitleForeColor = System.Drawing.Color.White;
+            this.Load += new System.EventHandler(this.Add_Book_Form_Load);
             this.Controls.SetChildIndex(this.groupBox1, 0);
             this.Controls.SetChildIndex(this.PB_Product, 0);
             this.Controls.SetChildIndex(this.LB_ItemCount, 0);

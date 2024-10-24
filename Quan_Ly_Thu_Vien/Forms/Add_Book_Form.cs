@@ -1,4 +1,5 @@
 ﻿using DinhKhanh_Controls_UI.Forms;
+using Quan_Ly_Thu_Vien.DuLieu;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -34,6 +35,11 @@ namespace Quan_Ly_Thu_Vien.Forms
             {
                 Close();
             }    
+        }
+
+        private void Add_Book_Form_Load(object sender, EventArgs e)
+        {
+            comboBox1.DataSource= Loai_Sach.GetValues(typeof(Loai_Sach));
         }
     }
 }

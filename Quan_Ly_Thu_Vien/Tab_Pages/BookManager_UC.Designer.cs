@@ -42,6 +42,7 @@
             this.dkButton10 = new DinhKhanh_Controls_UI.Buttons.DKButton();
             this.LB_NumBook = new System.Windows.Forms.Label();
             this.btn_Add = new DinhKhanh_Controls_UI.Buttons.DKButton();
+            this.txt_FindBook = new DinhKhanh_Controls_UI.TextControls.DKTextBox();
             this.FLP_BookList.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -458,9 +459,45 @@
             this.btn_Add.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.btn_Add.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btn_Add_MouseClick);
             // 
+            // txt_FindBook
+            // 
+            this.txt_FindBook.AcceptReturn = false;
+            this.txt_FindBook.AcceptTab = false;
+            this.txt_FindBook.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(247)))), ((int)(((byte)(236)))));
+            this.txt_FindBook.BorderColor = System.Drawing.Color.Gray;
+            this.txt_FindBook.BorderWidth = 1;
+            this.txt_FindBook.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_FindBook.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_FindBook.FocusBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
+            this.txt_FindBook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
+            this.txt_FindBook.HideSelection = true;
+            this.txt_FindBook.Image = null;
+            this.txt_FindBook.ImageAlignRight = false;
+            this.txt_FindBook.ImageSize = new System.Drawing.Size(20, 20);
+            this.txt_FindBook.ImageVisible = false;
+            this.txt_FindBook.Lines = new string[0];
+            this.txt_FindBook.Location = new System.Drawing.Point(495, 26);
+            this.txt_FindBook.MaxLength = 32767;
+            this.txt_FindBook.Name = "txt_FindBook";
+            this.txt_FindBook.PasswordChar = '\0';
+            this.txt_FindBook.ReadOnly = false;
+            this.txt_FindBook.ShortCutKeysEnabled = true;
+            this.txt_FindBook.Size = new System.Drawing.Size(248, 27);
+            this.txt_FindBook.TabIndex = 94;
+            this.txt_FindBook.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_FindBook.TextRenderHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
+            this.txt_FindBook.UnderlineStyle = true;
+            this.txt_FindBook.UseAnimation = true;
+            this.txt_FindBook.WartermarkFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_FindBook.Watermark = "Nhập mã hoặc tên sách để tìm kiếm";
+            this.txt_FindBook.WatermarkForeColor = System.Drawing.Color.DimGray;
+            this.txt_FindBook.WordWrap = true;
+            this.txt_FindBook.TextChanged += new System.EventHandler(this.txt_FindBook_TextChanged);
+            // 
             // BookManager_UC
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.Controls.Add(this.txt_FindBook);
             this.Controls.Add(this.btn_Add);
             this.Controls.Add(this.LB_NumBook);
             this.Controls.Add(this.FLP_BookList);
@@ -490,5 +527,6 @@
         private System.Windows.Forms.Label LB_NumBook;
         private DinhKhanh_Controls_UI.Buttons.DKButton btn_Add;
         private DinhKhanh_Controls_UI.Buttons.DKButton dkButton10;
+        private DinhKhanh_Controls_UI.TextControls.DKTextBox txt_FindBook;
     }
 }
