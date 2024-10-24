@@ -63,9 +63,19 @@ namespace Quan_Ly_Thu_Vien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_book_100__2_ {
+        internal static System.Drawing.Bitmap icons8_book_100__3_ {
             get {
-                object obj = ResourceManager.GetObject("icons8_book_100__2_", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8_book_100__3_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_read_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_read_100", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

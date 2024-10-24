@@ -39,9 +39,9 @@
             this.dkButton5 = new DinhKhanh_Controls_UI.Buttons.DKButton();
             this.dkButton6 = new DinhKhanh_Controls_UI.Buttons.DKButton();
             this.dkButton8 = new DinhKhanh_Controls_UI.Buttons.DKButton();
-            this.LB_NumBook = new System.Windows.Forms.Label();
-            this.btn_Login = new DinhKhanh_Controls_UI.Buttons.DKButton();
             this.dkButton10 = new DinhKhanh_Controls_UI.Buttons.DKButton();
+            this.LB_NumBook = new System.Windows.Forms.Label();
+            this.btn_Add = new DinhKhanh_Controls_UI.Buttons.DKButton();
             this.FLP_BookList.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -371,55 +371,6 @@
             this.dkButton8.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
             this.dkButton8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
             // 
-            // LB_NumBook
-            // 
-            this.LB_NumBook.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.LB_NumBook.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LB_NumBook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
-            this.LB_NumBook.Location = new System.Drawing.Point(16, 510);
-            this.LB_NumBook.Name = "LB_NumBook";
-            this.LB_NumBook.Size = new System.Drawing.Size(178, 19);
-            this.LB_NumBook.TabIndex = 2;
-            this.LB_NumBook.Text = "Tổng số sách: 50";
-            // 
-            // btn_Login
-            // 
-            this.btn_Login.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Login.AnimationMode = DinhKhanh_Controls_UI.Enums.AnimationMode.Ripple;
-            this.btn_Login.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(139)))), ((int)(((byte)(34)))));
-            this.btn_Login.BorderThickness = 0;
-            this.btn_Login.ContentAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_Login.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Login.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btn_Login.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.btn_Login.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
-            this.btn_Login.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
-            this.btn_Login.Image = null;
-            this.btn_Login.ImageOffsetX = 0;
-            this.btn_Login.ImageOffsetY = 0;
-            this.btn_Login.ImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_Login.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_Login.Location = new System.Drawing.Point(652, 510);
-            this.btn_Login.Name = "btn_Login";
-            this.btn_Login.NormalColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
-            this.btn_Login.NormalColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
-            this.btn_Login.PressColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(63)))), ((int)(((byte)(48)))));
-            this.btn_Login.PressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(73)))), ((int)(((byte)(78)))));
-            this.btn_Login.Radius = 5;
-            this.btn_Login.ShadowAlpha = 120;
-            this.btn_Login.ShadowColor = System.Drawing.Color.Black;
-            this.btn_Login.ShadowPadding = new System.Windows.Forms.Padding(0);
-            this.btn_Login.ShapeType = DinhKhanh_Controls_UI.Enums.ShapeType.RoundedRectangle;
-            this.btn_Login.Size = new System.Drawing.Size(91, 32);
-            this.btn_Login.StringTrimming = System.Drawing.StringTrimming.EllipsisCharacter;
-            this.btn_Login.TabIndex = 57;
-            this.btn_Login.Text = "Thêm";
-            this.btn_Login.TextHoverColor = System.Drawing.Color.White;
-            this.btn_Login.TextNormalColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_Login.TextPadding = new System.Windows.Forms.Padding(0);
-            this.btn_Login.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.btn_Login.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            // 
             // dkButton10
             // 
             this.dkButton10.AnimationMode = DinhKhanh_Controls_UI.Enums.AnimationMode.ColorTransition;
@@ -457,10 +408,60 @@
             this.dkButton10.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
             this.dkButton10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
             // 
+            // LB_NumBook
+            // 
+            this.LB_NumBook.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.LB_NumBook.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LB_NumBook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
+            this.LB_NumBook.Location = new System.Drawing.Point(16, 510);
+            this.LB_NumBook.Name = "LB_NumBook";
+            this.LB_NumBook.Size = new System.Drawing.Size(178, 19);
+            this.LB_NumBook.TabIndex = 2;
+            this.LB_NumBook.Text = "Tổng số sách: 50";
+            // 
+            // btn_Add
+            // 
+            this.btn_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Add.AnimationMode = DinhKhanh_Controls_UI.Enums.AnimationMode.Ripple;
+            this.btn_Add.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(139)))), ((int)(((byte)(34)))));
+            this.btn_Add.BorderThickness = 0;
+            this.btn_Add.ContentAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_Add.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Add.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btn_Add.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.btn_Add.HoverColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
+            this.btn_Add.HoverColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
+            this.btn_Add.Image = null;
+            this.btn_Add.ImageOffsetX = 0;
+            this.btn_Add.ImageOffsetY = 0;
+            this.btn_Add.ImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_Add.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_Add.Location = new System.Drawing.Point(652, 510);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.NormalColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(73)))), ((int)(((byte)(58)))));
+            this.btn_Add.NormalColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
+            this.btn_Add.PressColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(63)))), ((int)(((byte)(48)))));
+            this.btn_Add.PressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(73)))), ((int)(((byte)(78)))));
+            this.btn_Add.Radius = 5;
+            this.btn_Add.ShadowAlpha = 120;
+            this.btn_Add.ShadowColor = System.Drawing.Color.Black;
+            this.btn_Add.ShadowPadding = new System.Windows.Forms.Padding(0);
+            this.btn_Add.ShapeType = DinhKhanh_Controls_UI.Enums.ShapeType.RoundedRectangle;
+            this.btn_Add.Size = new System.Drawing.Size(91, 32);
+            this.btn_Add.StringTrimming = System.Drawing.StringTrimming.EllipsisCharacter;
+            this.btn_Add.TabIndex = 57;
+            this.btn_Add.Text = "Thêm";
+            this.btn_Add.TextHoverColor = System.Drawing.Color.White;
+            this.btn_Add.TextNormalColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_Add.TextPadding = new System.Windows.Forms.Padding(0);
+            this.btn_Add.TextPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.btn_Add.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.btn_Add.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btn_Add_MouseClick);
+            // 
             // BookManager_UC
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.Controls.Add(this.btn_Login);
+            this.Controls.Add(this.btn_Add);
             this.Controls.Add(this.LB_NumBook);
             this.Controls.Add(this.FLP_BookList);
             this.Controls.Add(this.label1);
@@ -487,7 +488,7 @@
         private DinhKhanh_Controls_UI.Buttons.DKButton dkButton6;
         private DinhKhanh_Controls_UI.Buttons.DKButton dkButton8;
         private System.Windows.Forms.Label LB_NumBook;
-        private DinhKhanh_Controls_UI.Buttons.DKButton btn_Login;
+        private DinhKhanh_Controls_UI.Buttons.DKButton btn_Add;
         private DinhKhanh_Controls_UI.Buttons.DKButton dkButton10;
     }
 }

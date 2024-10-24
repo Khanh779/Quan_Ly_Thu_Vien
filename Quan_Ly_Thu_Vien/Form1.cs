@@ -1,4 +1,5 @@
 ﻿using DinhKhanh_Controls_UI.Forms;
+using Quan_Ly_Thu_Vien.Forms;
 using Quan_Ly_Thu_Vien.Tab_Pages;
 using System;
 using System.Collections.Generic;
@@ -38,6 +39,8 @@ namespace Quan_Ly_Thu_Vien
             timerShowAnimation = new Timer();
             timerShowAnimation.Interval = 10;
             timerShowAnimation.Tick += TimerShowAnimation_Tick; ;
+
+            Text = Application.ProductName + " - Giao diện chính";
         }
 
         private void TimerShowAnimation_Tick(object sender, EventArgs e)
@@ -93,6 +96,17 @@ namespace Quan_Ly_Thu_Vien
 
         private void dkButton2_MouseClick(object sender, MouseEventArgs e)
         {
+            if (e.Button == MouseButtons.Left)
+            {
+                if (!PN_Tabs.Controls.Contains(ThongKe_UC.Instance))
+                {
+                    PN_Tabs.Controls.Clear();
+                    PN_Tabs.Controls.Add(ThongKe_UC.Instance);
+                    ThongKe_UC.Instance.Dock = DockStyle.Fill;
+                    ThongKe_UC.Instance.BringToFront();
+                }
+
+            }
 
         }
 

@@ -34,6 +34,8 @@ namespace Quan_Ly_Thu_Vien
             _obj = this;
             // Set the title of the form
 
+            Text= Application.ProductName + " - Đăng nhập";
+
         }
 
 

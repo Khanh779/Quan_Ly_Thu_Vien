@@ -19,6 +19,8 @@ namespace Quan_Ly_Thu_Vien.DuLieu
 
     public enum Loai_Sach
     {
+        Khac,
+
         Khoa_Hoc_Cong_Nghe,
         Khoa_Hoc_Tu_Nhien,
         Khoa_Hoc_Xa_Hoi,

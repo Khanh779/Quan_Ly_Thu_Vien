@@ -159,5 +159,63 @@ namespace Quan_Ly_Thu_Vien
                 return false;
             }
         }
+
+        public static string LayTenLoaiThuc(Loai_Sach loai)
+        {
+            switch (loai)
+            {
+                case Loai_Sach.Khoa_Hoc_Cong_Nghe:
+                    return "Khoa học công nghệ";
+                case Loai_Sach.Khoa_Hoc_Tu_Nhien:
+                    return "Khoa học tự nhiên";
+                case Loai_Sach.Khoa_Hoc_Xa_Hoi:
+                    return "Khoa học xã hội";
+                case Loai_Sach.Ton_Giao:
+                    return "Tôn giáo";
+                case Loai_Sach.Ngon_Ngu:
+                    return "Ngôn ngữ";
+                case Loai_Sach.Lich_Su_Va_Dia_Ly:
+                    return "Lịch sử và địa lý";
+                case Loai_Sach.Nghe_Thuat_Va_Giai_Tri:
+                    return "Nghệ thuật và giải trí";
+                case Loai_Sach.Van_Hoc:
+                    return "Văn học";
+                case Loai_Sach.Triet_Hoc_Va_Tam_Ly_Hoc:
+                    return "Triết học và tâm lý học";
+                case Loai_Sach.Y_Hoc:
+                    return "Y học";
+                default:
+                    return "Khác";
+            }
+        }
+
+        public static Loai_Sach ChuyenTenSangEnum(string tenLoai)
+        {
+            switch(tenLoai)
+            {
+                case "Khoa học công nghệ":
+                    return Loai_Sach.Khoa_Hoc_Cong_Nghe;
+                case "Khoa học tự nhiên":
+                    return Loai_Sach.Khoa_Hoc_Tu_Nhien;
+                case "Khoa học xã hội":
+                    return Loai_Sach.Khoa_Hoc_Xa_Hoi;
+                case "Tôn giáo":
+                    return Loai_Sach.Ton_Giao;
+                case "Ngôn ngữ":
+                    return Loai_Sach.Ngon_Ngu;
+                case "Lịch sử và địa lý":
+                    return Loai_Sach.Lich_Su_Va_Dia_Ly;
+                case "Nghệ thuật và giải trí":
+                    return Loai_Sach.Nghe_Thuat_Va_Giai_Tri;
+                case "Văn học":
+                    return Loai_Sach.Van_Hoc;
+                case "Triết học và tâm lý học":
+                    return Loai_Sach.Triet_Hoc_Va_Tam_Ly_Hoc;
+                case "Y học":
+                    return Loai_Sach.Y_Hoc;
+                default:
+                    return Loai_Sach.Khac;
+            }    
+        }
     }
 }

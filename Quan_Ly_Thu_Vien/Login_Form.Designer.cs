@@ -266,7 +266,7 @@
             this.MinimizeBox = false;
             this.Name = "Login_Form";
             this.Padding = new System.Windows.Forms.Padding(1);
-            this.Text = "Quản lý thư viện";
+            this.Text = "Quản lý thư viện - Đăng nhập";
             this.TitleBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));
             this.TitleForeColor = System.Drawing.Color.White;
             this.Controls.SetChildIndex(this.pictureBox1, 0);
