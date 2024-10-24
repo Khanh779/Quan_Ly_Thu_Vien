@@ -77,8 +77,14 @@ namespace Quan_Ly_Thu_Vien
             ThucHien_XuLy.WriteBinaryFile();
         }
 
-
-      
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            base.OnClosing(e);
+            if (MessageBox.Show("Bạn có muốn thoát ứng dụng ko?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 
 
