@@ -64,10 +64,7 @@ namespace Quan_Ly_Thu_Vien
         {
             if (e.Button == MouseButtons.Left)
             {
-                if (MessageBox.Show("Bạn có muốn thoát ứng dụng ko?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                {
-                    this.Close();
-                }
+                this.Close();
             }
         }
 
