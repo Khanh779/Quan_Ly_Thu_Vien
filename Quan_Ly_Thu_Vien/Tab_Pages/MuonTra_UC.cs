@@ -35,7 +35,7 @@ namespace Quan_Ly_Thu_Vien.Tab_Pages
         private void MuonTra_UC_Load(object sender, EventArgs e)
         {
             listView1.Items.Clear();
-            foreach (var item in ThucHien_XuLy.TongHopDuLieu.DanhSach_NguoiMuon)
+            foreach (var item in ThucHien_XuLy.TongHopDuLieu.DanhSach_NguoiMuon.Values)
             {
                 ListViewItem lvi = new ListViewItem(item.MaNguoiMuon.ToString());
                 lvi.SubItems.Add(item.HoTen.ToString());

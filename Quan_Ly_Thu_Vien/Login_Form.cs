@@ -23,6 +23,7 @@ namespace Quan_Ly_Thu_Vien
                 {
                     _obj = new Login_Form();
                 }
+                _obj.BringToFront();
                 return _obj;
             }
         }
@@ -34,6 +35,8 @@ namespace Quan_Ly_Thu_Vien
             // Set the title of the form
 
         }
+
+
 
         private void dkCheckBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -73,6 +76,9 @@ namespace Quan_Ly_Thu_Vien
             base.OnFormClosed(e);
             ThucHien_XuLy.WriteBinaryFile();
         }
+
+
+      
     }
 
 

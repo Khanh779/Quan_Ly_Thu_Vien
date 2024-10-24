@@ -36,7 +36,7 @@ namespace Quan_Ly_Thu_Vien.Tab_Pages
         {
             FLP_BookList.Controls.Clear();
 
-            foreach (var item in ThucHien_XuLy.TongHopDuLieu.DanhSach_Sach)
+            foreach (var item in ThucHien_XuLy.TongHopDuLieu.DanhSach_Sach.Values)
             {
                 var a = ThucHien_XuLy.ButtonGradient();
                 a.Image = item.HinhAnh == null ? Properties.Resources.icons8_book_100__2_ : item.HinhAnh;

@@ -265,7 +265,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login_Form";
-            this.Opacity = 0.9D;
             this.Padding = new System.Windows.Forms.Padding(1);
             this.Text = "Quản lý thư viện";
             this.TitleBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(113)))), ((int)(((byte)(98)))));

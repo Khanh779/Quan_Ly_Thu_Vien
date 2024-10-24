@@ -24,6 +24,7 @@ namespace Quan_Ly_Thu_Vien
                 {
                     _obj = new Form1();
                 }
+                _obj.BringToFront();
                 return _obj;
             }
         }
@@ -50,12 +51,6 @@ namespace Quan_Ly_Thu_Vien
 
         Timer timerShowAnimation;
 
-
-        protected override void OnFormClosed(FormClosedEventArgs e)
-        {
-            base.OnFormClosed(e);
-            Login_Form.Instance.Show();
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -99,6 +94,12 @@ namespace Quan_Ly_Thu_Vien
         private void dkButton2_MouseClick(object sender, MouseEventArgs e)
         {
 
+        }
+
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            base.OnFormClosed(e);
+            Login_Form.Instance.Show();
         }
     }
 }

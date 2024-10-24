@@ -10,7 +10,7 @@ namespace Quan_Ly_Thu_Vien
     [Serializable]
     public class TongHop_DuLieu
     {
-        public  List<ThongTin_NguoiMuon> DanhSach_NguoiMuon = new List<ThongTin_NguoiMuon>();
-        public  List<ThongTin_Sach> DanhSach_Sach = new List<ThongTin_Sach>();
+        public  Dictionary<string, ThongTin_NguoiMuon> DanhSach_NguoiMuon = new Dictionary<string, ThongTin_NguoiMuon>();
+        public  Dictionary<string,ThongTin_Sach> DanhSach_Sach = new Dictionary<string, ThongTin_Sach>();
     }
 }
