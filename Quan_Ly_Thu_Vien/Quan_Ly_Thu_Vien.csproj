@@ -135,16 +135,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="icons8-library-100.ico" />
-    <None Include="Resources\icons8-book-100 %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Do_An\DinhKhanh_Controls_UI\DinhKhanh_Controls_UI.csproj">
+    <ProjectReference Include="..\DinhKhanh_Controls_UI\DinhKhanh_Controls_UI.csproj">
       <Project>{6ec34e19-d310-4cc5-a522-3e48fc4d84c7}</Project>
       <Name>DinhKhanh_Controls_UI</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-library-100.ico" />
+    <None Include="Resources\icons8-book-100 %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
